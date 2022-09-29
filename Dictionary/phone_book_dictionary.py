@@ -22,7 +22,7 @@ while True:
 
     # Display value paired to key input
     for x,y in phone_book.items():
-        if(x == key):
+        if(x == key.title()):
             found = 1
             print('The phone number is:', y)
             break
